@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+	<!-- 指定Hive元数据存储的MySQL地址 -->
+	<property>
+		<name>javax.jdo.option.ConnectionURL</name>
+		<value>jdbc:mysql://master:3306/hive?createDatabaseIfNotExist=true</value>
+	</property>
+	<!-- 元数据存储数据库的驱动 -->
+	<property>
+		<name>javax.jdo.option.ConnectionDriverName</name>
+		<value>com.mysql.jdbc.Driver</value>
+	</property>
+	<!-- 元数据存储数据库的用户名 -->
+	<property>
+		<name>javax.jdo.option.ConnectionUserName</name>
+		<value>hadoop</value>
+	</property>
+	<!-- 元数据存储数据库的密码 -->
+	<property>
+		<name>javax.jdo.option.ConnectionPassword</name>
+		<value>hadoop</value>
+	</property>
+	<!--<property>-->
+		<!--<name>hive.metastore.uris</name>-->
+		<!--<value>thrift://master:9083</value>-->
+	<!--</property>-->
+</configuration>
