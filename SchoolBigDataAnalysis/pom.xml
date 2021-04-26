@@ -18,7 +18,7 @@
         <junit.version>4.12</junit.version>
         <mysql.version>8.0.16</mysql.version>
         <scopt.version>3.2.0</scopt.version>
-        <commons-io.version>2.4</commons-io.version>
+        <commons-io.version>2.7</commons-io.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven-assembly-plugin.version>3.1.0</maven-assembly-plugin.version>
