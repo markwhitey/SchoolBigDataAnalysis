@@ -16,7 +16,7 @@
         <akka-actor.version>2.5.9</akka-actor.version>
         <spark.version>2.4.8</spark.version>
         <junit.version>4.13.1</junit.version>
-        <mysql.version>8.0.16</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <scopt.version>3.2.0</scopt.version>
         <commons-io.version>2.7</commons-io.version>
         <maven.compiler.source>1.8</maven.compiler.source>
